@@ -18,14 +18,15 @@ This project simulates the initial technical assessment phase for an enterprise 
 ## Tools Used
 * **Terminal System:** KillerCoda Playground Environment
 * **Platform Control:** Git & GitHub Document Management Systems
-* **Design Canvas:** Excalidraw / Draw.io
+* **Design Canvas:** Excalidraw / Draw.io / PowerPoint
 * **Documentation Engine:** Markdown Syntax
 
 ## Linux Commands Executed
 ```bash
-cat /etc/os-release  # Operating system classification check
-uname -r             # Active system kernel parsing
-lscpu                # Component processing unit details lookup
-free -h              # Volatile system memory measurement
-df -h                # Storage block capacity validation
-hostname -I          # Active local IP address discovery
+cat /etc/os-release   # Operating system classification check
+uname -r              # Active system kernel parsing
+lscpu                 # Component processing unit details lookup
+free -h               # Volatile system memory measurement
+df -h                 # Storage block capacity validation
+hostname              # Hostname system tracking
+hostname -I           # Active local IP address discovery
