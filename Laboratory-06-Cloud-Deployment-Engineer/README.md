@@ -10,14 +10,19 @@ This mission transitions manual container management to Infrastructure as Code (
 * Verify web access routing over exposed container ports.
 
 ## Commands Executed
-```bash
-# Navigate and edit code
-mkdir nextcloud-deployment && cd nextcloud-deployment
-nano docker-compose.yml
+- Navigate and create folder: `mkdir nextcloud-deployment && cd nextcloud-deployment`
+- Create compose file: `nano docker-compose.yml`
+- Deploy stack: `docker-compose up -d`
+- Check running containers: `docker-compose ps`
+- Teardown stack: `docker-compose down`
 
-# Deploy stack
-docker-compose up -d
-docker-compose ps
+## Skills Learned
+* Multi-tier infrastructure architecture modeling.
+* Infrastructure as Code (IaC) authoring in YAML format.
+* Docker internal DNS service discovery and container linking.
+* Automated application stack deployment and lifecycle management.
 
-# Teardown stack
-docker-compose down
+## Visual Evidence
+* **Deployment Verification**: `screenshots/compose-deployment.png`
+* **Nextcloud Web Interface**: `screenshots/nextcloud-web.png`
+* **Stack Teardown**: `screenshots/compose-teardown.png`
